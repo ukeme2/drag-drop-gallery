@@ -72,3 +72,45 @@ h1 {
   height: 100%;
   object-fit: contain;
 }
+
+/* RESPONSIVE DESIGN FOR PHONES */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .gallery {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .image-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .small-image {
+    width: 70px;
+    height: 80px;
+  }
+
+  .display-box {
+    width: 100%;
+    height: 400px;
+  }
+
+  #display-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
